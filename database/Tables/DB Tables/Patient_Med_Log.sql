@@ -4,7 +4,7 @@ create table Patient_Med_Log(
 UID int(10) primary key,
 Lab_Report_Id int(10) NOT NULL,
 Prescription varchar(100) NOT NULL,
-last_Updated datetime default now(),
+last_Updated datetime default now() NOT NULL,
 Extra_Col1 varchar(200) NULL,
 Extra_Col2 varchar(200) NULL,
 Extra_Col3 varchar(200) NULL

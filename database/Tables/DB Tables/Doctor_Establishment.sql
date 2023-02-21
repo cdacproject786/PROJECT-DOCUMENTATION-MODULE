@@ -2,8 +2,8 @@
 /* Created Doctor_Establishment Table for Doctor module Ad&H */
 
 
-create table Doctor_Establishment(
-EID int(10) primary key,
+create table Doctor_Establishment_Table(
+E_ID int(10) primary key,
 last_Updated datetime default now() NOT NULL,
 Estab char(1) NOT NULL,
 Estab_Name varchar(100) NOT NULL,

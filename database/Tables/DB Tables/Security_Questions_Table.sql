@@ -1,6 +1,6 @@
-create table Security_Questions_Test_Table
+create table Security_Questions_Table
  (
- Security_Question_Id int(10) Primary key ,
+ Security_Questions_Id int(10) Primary key ,
  Security_Question varchar(50) ,
  Last_Updated_Date datetime,
  Ext_Col_1 int(6),

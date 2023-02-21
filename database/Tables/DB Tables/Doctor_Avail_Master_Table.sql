@@ -3,8 +3,8 @@
 
 
 create table Doctor_Avail_Master_Table(
-Doc_Sched_Id int(10) primary key,
-last_Updated datetime default now() NOT NULL,
+Doctor_Schedule_ID int(10) primary key,
+last_Updated datetime default now(),
 Doc_Avail_TId int(10) NOT NULL,
 Doc_Avail_DId int(10) NOT NULL,
 Fees decimal(10,2) NOT NULL,

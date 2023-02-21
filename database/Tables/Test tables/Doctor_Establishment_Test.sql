@@ -1,6 +1,6 @@
 
 /* Created Doctor_Establishment Table for Doctor module Ad&H */
-create table Doctor_Establishment(
+create table Doctor_Establishment_Test(
 EID int(10) primary key,
 Estab char(1),
 Estab_Name varchar(100),

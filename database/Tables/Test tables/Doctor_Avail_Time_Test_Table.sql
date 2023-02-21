@@ -1,6 +1,6 @@
 
-/* Created Doctor_Avail_Time Table for Doctor module Ad&H */
-create table Doctor_Avail_Time_Table(
+/* Created Doctor_Time_Test Table for Doctor module Ad&H */
+create table Doctor_Time_Test_Table(
 Doc_Avail_TId int(10) primary key,
 Slot1_Start time,
 Slot1_End time,

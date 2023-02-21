@@ -10,3 +10,4 @@ Extra_Col2 varchar(200) NULL,
 Extra_Col3 varchar(200) NULL
 /*constraint fk_Lab_Report_Id foreign key (Lab_Report_Id) references Lab_Report_Table(Lab_Report_Id ) on update cascade on delete cascade*/
 );
+

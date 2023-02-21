@@ -4,7 +4,7 @@
 
 create table Doctor_Avail_Master_Table(
 Doc_Sched_Id int(10) primary key,
-last_Updated datetime default now(),
+last_Updated datetime default now() NOT NULL,
 Doc_Avail_TId int(10) NOT NULL,
 Doc_Avail_DId int(10) NOT NULL,
 Fees decimal(10,2) NOT NULL,

@@ -4,7 +4,7 @@
 
 create table Doctor_Establishment(
 EID int(10) primary key,
-last_Updated datetime default now(),
+last_Updated datetime default now() NOT NULL,
 Estab char(1) NOT NULL,
 Estab_Name varchar(100) NOT NULL,
 Estab_Location varchar(100) NOT NULL,

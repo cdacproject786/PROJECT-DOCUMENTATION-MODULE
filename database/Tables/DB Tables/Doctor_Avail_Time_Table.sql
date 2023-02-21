@@ -4,7 +4,7 @@
 
 create table Doctor_Avail_Time_Table(
 Doc_Avail_TId int(10) primary key,
-last_Updated datetime default now(),
+last_Updated datetime default now() NOT NULL,
 Slot1_Start time NOT NULL,
 Slot1_End time NOT NULL,
 Slot2_Start time NULL,

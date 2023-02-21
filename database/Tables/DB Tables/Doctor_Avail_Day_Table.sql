@@ -4,7 +4,7 @@
 
 create table Doctor_Avail_Day_Table(
 Doc_Avail_DId int(10) primary key,
-last_Updated datetime default now(),
+last_Updated datetime default now() NOT NULL,
 Mon boolean NOT NULL,
 Tue boolean NOT NULL,
 Wed boolean NOT NULL,

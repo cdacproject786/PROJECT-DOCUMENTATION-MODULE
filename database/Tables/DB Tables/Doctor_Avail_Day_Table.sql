@@ -3,7 +3,7 @@
 
 
 create table Doctor_Avail_Day_Table(
-Doc_Avail_DId int(10) primary key,
+Doc_Avail_DId int(10) primary key auto_increment,
 last_Updated datetime default now() NOT NULL,
 Mon boolean NOT NULL,
 Tue boolean NOT NULL,

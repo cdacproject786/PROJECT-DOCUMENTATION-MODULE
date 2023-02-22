@@ -2,6 +2,7 @@
 /* Created Patient_Med_Log Table for Patient module Ad&H */
 create table Patient_Med_Log(
 UID int(10) primary key,
+Consult_Remark varchar(100) NOT NULL,
 Lab_Report_Id int(10) NOT NULL,
 Prescription varchar(100) NOT NULL,
 last_Updated datetime default now() NOT NULL,

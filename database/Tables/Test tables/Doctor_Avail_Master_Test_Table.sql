@@ -9,7 +9,5 @@ last_Updated datetime default now(),
 Extra_Col1 varchar(200),
 Extra_Col2 varchar(200),
 Extra_Col3 varchar(200),
-constraint fk_Doc_Avail_TId foreign key (Doc_Avail_TId) references doctor_time_test_table(Doc_Avail_TId),
-constraint fk_Doc_Avail_DId foreign key (Doc_Avail_DId) references doctor_avail_day_table(Doc_Avail_DId)
 );
 

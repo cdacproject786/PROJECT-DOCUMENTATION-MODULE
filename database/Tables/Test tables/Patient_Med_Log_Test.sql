@@ -7,6 +7,6 @@ Prescription varchar(100),
 last_Updated datetime default now(),
 Extra_Col1 varchar(200),
 Extra_Col2 varchar(200),
-Extra_Col3 varchar(200),
+Extra_Col3 varchar(200)
 /* foreign key (FK_Lab_Report_Id) references Lab_Report_Table(Lab_Report_Id ) on update cascade on delete cascade*/
 );

@@ -1,0 +1,6 @@
+Address - insert,update
+admin_primary - insert,update
+doctor_avail_master - insert,update
+Doctor_establishment - insert,update
+Doctor_med_registration = insert,update
+doctor+primary - insert,update

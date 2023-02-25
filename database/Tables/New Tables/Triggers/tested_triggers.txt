@@ -4,3 +4,8 @@ doctor_avail_master - insert,update
 Doctor_establishment - insert,update
 Doctor_med_registration = insert,update
 doctor+primary - insert,update
+patient_lab_report - insert,update
+patient_med_log - insert,update
+patient_med_record_test - insert,update
+patient_primary - insert,update
+security_questions - insert,update

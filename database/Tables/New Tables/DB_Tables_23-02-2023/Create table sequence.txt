@@ -1,0 +1,11 @@
+1. Admin_Primary.sql
+2. Doctor_Med_Registration.sql
+3. Doctor_Establishment.sql
+4. Security_Questions.sql
+5. Address.sql
+6. Patient_Med_Record.sql
+7. Patient_Primary.sql
+8. Patient_Med_Log.sql
+9. Patient_Lab_Report.sql
+10. Doctor_Avail_Master.sql
+11. Doctor_Primary.sql

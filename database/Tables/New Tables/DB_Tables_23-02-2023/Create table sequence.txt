@@ -6,6 +6,6 @@
 6. Patient_Med_Record.sql
 7. Patient_Primary.sql
 8. Patient_Med_Log.sql
-9. Patient_Lab_Report.sql
+9. Patient_Lab_Report.sql   >>we are going to delete it
 10. Doctor_Avail_Master.sql
 11. Doctor_Primary.sql
